@@ -390,6 +390,8 @@ void do_refresh() {
     remove_timed_out_processes();
   }
 
+  remove_unknown_pid_processes();
+  
   ProcList *curproc = processes;
   int nproc = processes->size();
 

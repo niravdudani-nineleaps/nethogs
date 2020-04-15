@@ -144,4 +144,6 @@ void procclean();
 
 void remove_timed_out_processes();
 
+void remove_unknown_pid_processes();
+
 #endif
